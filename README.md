@@ -3,7 +3,7 @@
 > Final-year major project (B.E. Artificial Intelligence & Machine Learning, VTU, 2026-27).
 > A deep learning model that grades IVF blastocyst images, delivered as a secure web platform for doctors and patients.
 
-![REVIVAL IVF landing page](docs/screenshots/01-landing-page.jpg)
+![REVIVAL IVF landing page](01-landing-page.jpg)
 
 ## Why this project?
 
@@ -23,11 +23,11 @@ Choosing the best embryo is one of the most important steps in IVF. Today, embry
 
 | Upload an embryo image | AI analysis result |
 |---|---|
-| ![Embryo upload](docs/screenshots/02-embryo-upload.jpg) | ![Analysis result](docs/screenshots/03-ai-analysis-result.jpg) |
+| ![Embryo upload](02-embryo-upload.jpg) | ![Analysis result](03-ai-analysis-result.jpg) |
 
 **Patient dashboard with Patient Copilot** (demo data, personal details hidden)
 
-![Patient dashboard](docs/screenshots/04-patient-dashboard-copilot.jpg)
+![Patient dashboard](04-patient-dashboard-copilot.jpg)
 
 ## Model and results
 
@@ -47,7 +47,7 @@ Choosing the best embryo is one of the most important steps in IVF. Today, embry
 | Inner Cell Mass (ICM) | 238 | **65.13%** |
 | Trophectoderm (TE) | 234 | **57.69%** |
 
-![Test accuracy](docs/screenshots/06-test-accuracy.png)
+![Test accuracy](06-test-accuracy.png)
 
 **Key findings**
 
@@ -60,7 +60,7 @@ Choosing the best embryo is one of the most important steps in IVF. Today, embry
 
 Three-tier design: **Next.js** frontend, **FastAPI** backend with the AI grading service, and **SQLite** database.
 
-![Architecture](docs/screenshots/05-system-architecture.png)
+![Architecture](05-system-architecture.png)
 
 ## Tech stack
 
